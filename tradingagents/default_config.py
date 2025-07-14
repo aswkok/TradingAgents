@@ -10,9 +10,12 @@ DEFAULT_CONFIG = {
     ),
     # LLM settings
     "llm_provider": "openai",
-    "deep_think_llm": "o4-mini",
-    "quick_think_llm": "gpt-4o-mini",
-    "backend_url": "https://api.openai.com/v1",
+    # "deep_think_llm": "openai/gpt-4o-mini",
+    # "quick_think_llm": "openai/gpt-4o-mini",
+    "deep_think_llm": "deepseek-reasoner",
+    "quick_think_llm": "deepseek-chat",
+    # "backend_url": "https://openrouter.ai/api/v1",
+    "backend_url": "https://api.deepseek.com/v1",
     # Debate and discussion settings
     "max_debate_rounds": 1,
     "max_risk_discuss_rounds": 1,
